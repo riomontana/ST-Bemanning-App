@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Hem"
+        android:id="@+id/id_hem"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:title="Mina jobb"
+        android:id="@+id/id_jobb"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:title="Info/ hjälp"
+        android:id="@+id/id_info"
+        app:showAsAction="never"
+        android:orderInCategory="102"
+        />
+    <item
+        android:title="Länk till hemsidan"
+        android:id="@+id/id_länk"
+        app:showAsAction="never"
+        android:orderInCategory="103"
+        />
+    <item
+        android:title="Logga ut"
+        android:id="@+id/id_loggaUt"
+        app:showAsAction="never"
+        android:orderInCategory="104"
+        />
+
+
+
+
+</menu>
