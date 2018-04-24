@@ -6,6 +6,7 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+
 import android.widget.CalendarView;
 import android.widget.TextView;
 
@@ -30,6 +31,7 @@ public class SecondActivity extends AppCompatActivity {
             }
         });
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -68,4 +70,5 @@ public class SecondActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+  
 }
