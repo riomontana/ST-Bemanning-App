@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
     tools:context="com.example.nikolapajovic.logindemo.StartActivity">
 
     <EditText
@@ -16,6 +17,7 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="Name"
+        android:textColor="#FFF"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -34,6 +36,7 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="Password"
+        android:textColor="#FFF"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -43,6 +46,7 @@
         app:layout_constraintVertical_bias="0.135" />
 
     <Button
+        android:background="@drawable/btn"
         android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -51,6 +55,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:text="Login"
+        android:textColor="#FFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
