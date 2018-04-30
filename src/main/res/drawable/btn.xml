@@ -6,7 +6,7 @@
         />
 
     <solid
-        android:color="@color/colorAccent"
+        android:color="#FFFFFF"
         />
 
 </shape>

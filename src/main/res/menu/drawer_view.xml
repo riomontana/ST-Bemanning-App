@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_special_workshift"
+            android:icon="@drawable/ic_announcement_black_24dp"
+            android:title="Specialpass" />
+        <item
+            android:id="@+id/nav_weblink"
+            android:icon="@drawable/ic_public_black_24dp"
+            android:title="ST Bemanning webb" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="Information" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Logga ut" />
+    </group>
+</menu>
